@@ -1,1 +1,26 @@
 Onze java is expired -> over een week krijgen we nieuwe licence. 
+
+BasicGItHubCommands
+git init – initialization of local repository
+• git status – checks status of current branch
+• git commit – makes a snapshot
+• git push – pushes version of code to remote repository
+• git pull – pulls the latest version of code from remote
+repository
+• .gitignore – adds list of files that won’t be added to
+GitHub (e.g., libraries, IDE auto-generated files, etc.),
+example of .gitignore: /dist *.txt /idea
+git branch feature1 – creates branch feature1
+• git checkout feature1 – switches to branch feature1
+(updated according to the latest code committed to the
+branch)
+• git add . – adds all new files to local repository
+• git commit –m “changes” – commits changes to local
+repository
+• git checkout master – switches to master branch
+• git merge feature1 – merges branch feature1 to master
+• git remote – lists all remote repositories
+• git remote add origin URL– adds remote repository
+• git push -u origin master – pushes changes to origin
+master
+• git pull – pulls the changes added by other contributors
